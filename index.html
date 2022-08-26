@@ -1,427 +1,156 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  <head>
-    <title>YouTube.com Clone</title>
+	<head>
+		<title>Cher Peng</title>
+		<link rel="shortcut icon" type="image/png" href="images/cher.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
 
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/video.css">
-    <link rel="stylesheet" href="styles/sidebar.css">
-  </head>
-  <body>
-    <header class="header">
-      <div class="left-section">
-        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
-        <img class="youtube-logo" src="icons/youtube-logo.svg">
-      </div>
-      <div class="middle-section">
-        <input class="search-bar" type="text" placeholder="Search">
-        <button class="search-button">
-          <img class="search-icon" src="icons/search.svg">
-          <div class="tooltip">Search</div>
-        </button>
-        <!--
-          Pur position absolute inside position relative
-        -->
-        <button class="voice-search-button">
-          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
-          <div class="tooltip">Search with your voice</div>
-        </button>
-      </div>
-      <div class="right-section">
-        <div class="upload-icon-container">
-          <img class="upload-icon" src="icons/upload.svg">
-          <div class="tooltip">Create</div>
-        </div>
-          <div class="apps-container">
-            <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
-            <div class="tooltip">YouTube Apps</div>
-          </div>
-        <div class="notifications-icon-container">
-          <img class="notifications-icon" src="icons/notifications.svg">
-          <div class="notifications-count">3</div>
-          <div class="tooltip">Notifications</div>
-        </div>
-        <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
-      </div>
-    </header>
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Hi, I'm Cher &#128075;</h1>
+						<p>I'm an aspiring Product Manager with a background in UX Design and <a href="https://cogsys.ubc.ca/">Cognitive Systems</a>.</p>
+						<div class="centered arrow" text-align="center">
+							<ul class="actions">
+								<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+							</ul>
+						</div>
+					</div>
 
-    <nav class="sidebar">
-      <div class="sidebar-link">
-        <img src="icons/home.svg">
-        <div>Home</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/explore.svg">
-        <div>Explore</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/subscriptions.svg">
-        <div>Subscriptions</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/originals.svg">
-        <div>Originals</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/youtube-music.svg">
-        <div>YouTube Music</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/library.svg">
-        <div>Library</div>
-      </div>
-    </nav>
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">About Me</a>
+					</header>
 
-    <main>
-      <section class="video-grid">
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY&ab_channel=MarquesBrownlee">
-              <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-            </a>
-            <div class="video-time">14:20</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <a href="https://www.youtube.com/c/mkbhd">
-                <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
-              </a>
-              <div class="tooltip">
-                <div class="tooltip-container">
-                    <img class="channel-profile-picture" src="channel-pictures/channel-1.jpeg">
-                  <div class="profile-description">
-                    <div class="profile-name">
-                      Marques Brownlee
-                    </div>
-                    <div class="subscriber-count">
-                      15M subscribers
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="video-info">
-              <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY&ab_channel=MarquesBrownlee" class="video-title-link">
-                <p class="video-title">
-                  Talking Tech and AI with Google CEO Sundar Pichai!
-                </p>
-              </a>
-              <p class="video-author">
-                Marques Brownlee
-              </p>
-              <p class="video-stats">
-                3.4M views &#183; 6 months ago
-              </p>
-            </div>
-          </div>
-        </div>
-  
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk&ab_channel=Markiplier">
-              <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
-            </a>
-            <div class="video-time">8:22</div>
-          </div>
-          <div class="video-info-grid">
-              <div class="channel-picture">
-                <a href="https://www.youtube.com/c/markiplier">
-                  <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
-                </a>
-                <div class="tooltip">
-                  <div class="tooltip-container">
-                      <img class="channel-profile-picture" src="channel-pictures/channel-2.jpeg">
-                    <div class="profile-description">
-                      <div class="profile-name">
-                        Markiplier
-                      </div>
-                      <div class="subscriber-count">
-                        33.1M subscribers
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            <div class="video-info">
-              <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk&ab_channel=Markiplier" class="video-title-link">
-                <p class="video-title">
-                  Try Not To Laugh Challenge #9
-                </p>
-              </a>
-              <p class="video-author">
-                Markiplier
-              </p>
-              <p class="video-stats">
-                19M views &#183; 4 years ago
-              </p>
-            </div>
-          </div>
-        </div>
-  
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w&ab_channel=SSSniperWolf">
-              <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
-            </a>
-            <div class="video-time">9:13</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <a href="https://www.youtube.com/user/SSSniperWolf">
-                <img class="profile-picture" src="channel-pictures/channel-3.jpeg">
-              </a>
-            </div>
-            <div class="video-info">
-              <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w&ab_channel=SSSniperWolf" class="video-title-link">
-                <p class="video-title">
-                  Crazy Tik Toks Taken Moments Before DISASTER
-                </p>
-              </a>
-              <p class="video-author">
-                SSSniperWolf
-              </p>
-              <p class="video-stats">
-                12M views &#183; 1 year ago
-              </p>
-            </div>
-          </div>
-        </div>
-  
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=094y1Z2wpJg&ab_channel=Veritasium">
-              <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
-            </a>
-            <div class="video-time">22:09</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <a href="https://www.youtube.com/c/veritasium">
-                <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
-              </a>
-            </div>
-            <div class="video-info">
-              <a href="https://www.youtube.com/watch?v=094y1Z2wpJg&ab_channel=Veritasium"
-                 class="video-title-link">
-                 <p class="video-title">
-                  The Simplest Math Problem No One Can Solve - Collatz Conjecture
-                </p>
-              </a>
-              <p class="video-author">
-                Veritasium
-              </p>
-              <p class="video-stats">
-                18M views &#183; 4 months ago
-              </p>
-            </div>
-          </div>
-        </div>
-  
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=86CQq3pKSUw&ab_channel=CSDojo">
-              <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
-            </a>
-            <div class="video-time">11:17</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <a href="https://www.youtube.com/c/CSDojo">
-                <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
-              </a>
-            </div>
-            <div class="video-info">
-              <a href="https://www.youtube.com/watch?v=86CQq3pKSUw&ab_channel=CSDojo"
-                 class="video-title-link">
-                <p class="video-title">
-                  Kadane's Algorithm to Maximum Sum Subarray Problem
-                </p>
-              </a>
-              <p class="video-author">
-                CS Dojo
-              </p>
-              <p class="video-stats">
-                519K views &#183; 5 years ago
-              </p>
-            </div>
-          </div>
-        </div>
-  
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg&ab_channel=MrBeast">
-              <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
-            </a>
-            <div class="video-time">19:59</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
-                <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
-              </a>
-            </div>
-            <div class="video-info">
-              <a class="video-title-link" href="https://www.youtube.com/watch?v=yXWw0_UfSFg&ab_channel=MrBeast">
-                <p class="video-title">
-                  Anything You Can Fit In The Circle I’ll Pay For
-                </p>
-              </a>
-              <p class="video-author">
-                MrBeast
-              </p>
-              <p class="video-stats">
-                141M views &#183; 1 year ago
-              </p>
-            </div>
-          </div>
-        </div>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Portfolio</a></li>
+							<li><a href="about.html">About Me</a></li>
+							<li><a href="elements.html">Elements Reference</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/cher-peng/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/xcherpeng" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
 
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
-            <div class="video-time">10:13</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-7.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Why Planes Don't Fly Over Tibet
-              </p>
-              <p class="video-author">
-                RealLifeLore
-              </p>
-              <p class="video-stats">
-                6.6M views &#183; 1 year ago
-              </p>
-            </div>
-          </div>
-        </div>
+				<!-- Main -->
+					<div id="main">
 
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
-            <div class="video-time">7:12</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-8.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Inside The World's Biggest Passenger Plane
-              </p>
-              <p class="video-author">
-                Tech Vision
-              </p>
-              <p class="video-stats">
-                3.7M views &#183; 10 months ago
-              </p>
-            </div>
-          </div>
-        </div>
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2>Here Are Some Of My Recent Projects</h2>
+								</header>
+							</article>
 
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
-            <div class="video-time">13:17</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-9.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                The SECRET to Super Human STRENGTH
-              </p>
-              <p class="video-author">
-                ThenX
-              </p>
-              <p class="video-stats">
-                20M views &#183; 3 years ago
-              </p>
-            </div>
-          </div>
-        </div>
+						<!-- Posts -->
+							<section class="posts" id="posts">
+								<article>
+									<header>
+										<h2><a href="#">Purple Lotus<br />
+										</a></h2>
+										<span class="date">Product Management, UX Design - Innovation Accelator Project</span>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic02.png" alt="" /></a>
+									<p>Created a mental health education platform for Asian-Canadian Youth ages 13-20 to
+										address cultural stigma and cultural competency gaps in the mental health industry.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Check It Out</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Cart.io</a></h2>
+										<span class="date">UX Design - Personal Project</span>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic03.png" alt="" /></a>
+									<p>Designed a grocery budgeting app for students.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Check It Out</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/xcherpeng/Mr_Hippocampus" target="_blank">Mr_Hippocampus</a></h2>
+										<span class="date">Project Management, C#, Unity, <br />Machine Learning - Robot Tournament</span>
+									</header>
+									<a href="https://github.com/xcherpeng/Mr_Hippocampus" target="_blank" class="image fit"><img src="images/pic04.png" alt="" /></a>
+									<p>Lead a development team to train and implement a ball-collecting robot built in Unity using C#, Generative Adversarial Imitation Learning (GAIL) and 
+										Behavioural Cloning.
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/xcherpeng/Mr_Hippocampus" target="_blank" class="button">Check It Out</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Phish N' Chips</a></h2>
+										<span class="date">Project Management, Product Design <br /> - SecureHacks</span>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic05.png" alt="" /></a>
+									<p>Lead the creation and design of an educational cybersecurity game aimed towards young working professionals. </p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Check It Out</a></li>
+									</ul>
+								</article>
+							</section>
 
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
-            <div class="video-time">7:53</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-10.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
-              </p>
-              <p class="video-author">
-                Business Insider
-              </p>
-              <p class="video-stats">
-                14M views &#183; 1 year ago
-              </p>
-            </div>
-          </div>
-        </div>
+						<!-- A Lil Bit About Me -->
+						<article class="post featured">
+							<header class="major" id="about">
+								<h2>Want to Work Together?</h2>
+								<p>Feel free to send me a message! I love working on cool projects ❤️<br /></p>
+							</header>
+						</article>
 
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
-            <div class="video-time">4:10</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-11.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Dubai's Crazy Underwater Train and Other Things #Only in Dubai
-              </p>
-              <p class="video-author">
-                Destination Tips
-              </p>
-              <p class="video-stats">
-                3M views &#183; 1 year ago
-              </p>
-            </div>
-          </div>
-        </div>
+					</div>
 
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
-            <div class="video-time">4:51</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-12.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                What would happen if you didn’t drink water? - Mia Nacamulli
-              </p>
-              <p class="video-author">
-                TED-Ed
-              </p>
-              <p class="video-stats">
-                12M views &#183; 5 years ago
-              </p>
-            </div>
-          </div>
-        </div>
-        
-      </section>
-    </main>
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">xcher@student.ubc.ca</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/cher-peng/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/xcherpeng" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
 
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Cher Peng</li><li>Made With &#10084; in Vancouver </li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
 
-  </body>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
